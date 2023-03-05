@@ -1,0 +1,205 @@
+
+code	|	name	|	preferred name	|	taxid
+3	|	variable	|	 	|	 
+1	|	Acremonium acutatum	|	 	|	1036721
+1	|	Acremonium alternatum	|	 	|	45275
+1	|	Acremonium brachypenium	|	 	|	706483
+1	|	Acremonium chrysogenum	|	 	|	5044
+1	|	Acremonium furcatum	|	Furcasterigmium furcatum	|	2710536
+1	|	Acrostalagmus luteoalbus	|	 	|	132138
+1	|	Agrocybe aegerita	|	Cyclocybe aegerita	|	1973307
+1	|	Alternaria angustiovoidea	|	 	|	1187901
+1	|	Amorphotheca resinae	|	 	|	5101
+1	|	Apiotrichum scarabaeorum	|	 	|	192248
+1	|	Apodus deciduus	|	 	|	303344
+1	|	Aspergillus baarnensis	|	 	|	2070749
+1	|	Aspergillus caesiellus	|	 	|	41960
+1	|	Aspergillus candidus	|	 	|	41067
+1	|	Aspergillus carbonarius	|	 	|	40993
+1	|	Aspergillus clavatus	|	 	|	5057
+1	|	Aspergillus elegans	|	 	|	93033
+1	|	Aspergillus fumigatus	|	 	|	746128
+1	|	Aspergillus halophilicus	|	 	|	41419
+1	|	Aspergillus heterocaryoticus	|	 	|	2590573
+1	|	Aspergillus iranicus	|	 	|	1784770
+1	|	Aspergillus japonicus	|	 	|	34381
+1	|	Aspergillus nidulans	|	 	|	162425
+1	|	Aspergillus ostianus	|	 	|	138279
+1	|	Aspergillus penicillioides	|	 	|	41959
+1	|	Aspergillus restrictus	|	 	|	5064
+1	|	Aspergillus sepultus	|	 	|	138283
+1	|	Aspergillus tamarii	|	 	|	41984
+1	|	Auricularia cornea	|	 	|	1238391
+1	|	Barnettozyma californica	|	 	|	36038
+1	|	Blastobotrys proliferans	|	 	|	44067
+1	|	Botryotrichum atrogriseum	|	 	|	1934361
+1	|	Bulleromyces albus	|	Bullera alba	|	157611
+2	|	Byssochlamys spectabilis	|	Paecilomyces variotii	|	264951
+1	|	Candida albicans	|	 	|	5476
+1	|	Candida glabrata	|	Nakaseomyces glabratus	|	5478
+1	|	Candida metapsilosis	|	 	|	273372
+1	|	Candida parapsilosis	|	 	|	5480
+1	|	Candida railenensis	|	[Candida] railenensis	|	45579
+1	|	Candida tropicalis	|	 	|	5482
+1	|	Candida vartiovaarae	|	[Candida] vartiovaarae	|	51918
+1	|	Cercophora mirabilis	|	 	|	252187
+1	|	Chaetomium aureum	|	Arcopilus aureus	|	79815
+1	|	Chaetomium retardatum	|	Botryotrichum retardatum	|	2082612
+1	|	Citeromyces matritensis	|	 	|	36909
+1	|	Cladorrhinum hyalocarpum	|	 	|	2587396
+1	|	Cladosporium tenuissimum	|	 	|	70808
+1	|	Colletotrichum spaethianum	|	 	|	700344
+1	|	Colletotrichum viniferum	|	 	|	1131913
+1	|	Coprinellus micaceus	|	 	|	71717
+1	|	Coprinellus radians	|	 	|	71721
+1	|	Coprinellus sclerocystidiosus	|	Tulosesus sclerocystidiosus	|	979826
+1	|	Coprinopsis afrocinerea	|	 	|	2059449
+1	|	Coprinopsis clastophylla	|	 	|	512069
+1	|	Coprinus littoralis	|	 	|	1932848
+1	|	Cordyceps militaris	|	 	|	73501
+1	|	Cutaneotrichosporon cyanovorans	|	 	|	1078942
+1	|	Cystobasidium benthicum	|	 	|	255701
+1	|	Cystobasidium minuta	|	Cystobasidium minutum	|	29899
+1	|	Cystofilobasidium infirmominiatum	|	 	|	89913
+1	|	Cystofilobasidium macerans	|	 	|	89926
+1	|	Debaryomyces prosopidis	|	 	|	148098
+1	|	Didymella glomerata	|	 	|	749621
+1	|	Dirkmeia churashimaensis	|	 	|	745057
+1	|	Eremothecium coryli	|	 	|	33173
+1	|	Erysiphe necator	|	 	|	52586
+1	|	Erythrobasidium hasegawianum	|	 	|	5414
+1	|	Exophiala cancerae	|	 	|	943929
+1	|	Exophiala dermatitidis	|	 	|	5970
+1	|	Exophiala oligosperma	|	 	|	215243
+1	|	Exophiala xenobiotica	|	 	|	348802
+1	|	Filobasidium magnum	|	 	|	104409
+1	|	Flammulina filiformis	|	 	|	2060913
+1	|	Fusarium fujikuroi	|	 	|	5127
+1	|	Fusarium nurragi	|	 	|	457084
+1	|	Fusarium solani	|	 	|	169388
+1	|	Fusicolla acetilerea	|	 	|	1053101
+1	|	Gliomastix murorum	|	 	|	1036750
+1	|	Hannaella luteola	|	 	|	1198485
+1	|	Hannaella sinensis	|	 	|	4983
+1	|	Hanseniaspora nectarophila	|	 	|	1443074
+1	|	Hypsizygus ulmarius	|	 	|	71891
+1	|	Kabatina thujae	|	 	|	64362
+1	|	Kazachstania bovina	|	 	|	278024
+1	|	Kazachstania bulderi	|	 	|	112263
+1	|	Kazachstania exigua	|	 	|	34358
+1	|	Kazachstania humilis	|	 	|	51915
+1	|	Kazachstania pintolopesii	|	 	|	278025
+1	|	Kazachstania servazzii	|	 	|	27293
+1	|	Kluyveromyces marxianus	|	 	|	4911
+1	|	Knufia tsunedae	|	 	|	1337901
+1	|	Leucosporidium scottii	|	 	|	5278
+1	|	Lodderomyces elongisporus	|	 	|	36914
+1	|	Malassezia globosa	|	 	|	76773
+1	|	Malassezia restricta	|	 	|	76775
+1	|	Meyerozyma athensensis	|	 	|	304220
+2	|	Microascus brevicaulis	|	Scopulariopsis brevicaulis	|	561152
+1	|	Microascus croci	|	 	|	186359
+1	|	Microascus macrosporus	|	 	|	1526921
+1	|	Millerozyma farinosa	|	 	|	4920
+1	|	Minimedusa polyspora	|	 	|	411564
+1	|	Monascus purpureus	|	 	|	5098
+1	|	Morchella sextelata	|	 	|	1174677
+1	|	Mortierella amoeboidea	|	Linnemannia amoeboidea	|	743927
+1	|	Mortierella minutissima	|	Podila minutissima	|	64525
+1	|	Myceliophthora lutea	|	 	|	1126944
+2	|	Mycosphaerella tassiana	|	Cladosporium herbarum	|	29918
+1	|	Myriococcum thermophilum	|	Thermothelomyces myriococcoides	|	2588717
+1	|	Myrmecridium phragmitis	|	 	|	1130680
+1	|	Naganishia albida	|	 	|	100951
+1	|	Naganishia diffluens	|	 	|	89919
+1	|	Naganishia globosa	|	 	|	104412
+1	|	Neonectria major	|	 	|	992237
+1	|	Neosetophoma rosarum	|	 	|	2133996
+1	|	Niesslia tenuis	|	 	|	2884901
+1	|	Nigrospora oryzae	|	 	|	335854
+1	|	Noosia banksiae	|	Periconia banksiae	|	1050831
+1	|	Nothophoma variabilis	|	 	|	1858580
+1	|	Occultifur mephitis	|	 	|	1926586
+1	|	Ovatospora mollicella	|	 	|	1934395
+1	|	Papiliotrema laurentii	|	 	|	5418
+1	|	Paraphoma rhaphiolepidis	|	 	|	2014847
+1	|	Parengyodontium album	|	 	|	37998
+1	|	Penicillium bialowiezense	|	 	|	293381
+1	|	Penicillium capsulatum	|	 	|	69766
+1	|	Penicillium carneum	|	 	|	47248
+1	|	Penicillium citreonigrum	|	 	|	69768
+1	|	Penicillium citrinum	|	 	|	5077
+1	|	Penicillium copticola	|	 	|	1131579
+1	|	Penicillium corylophilum	|	 	|	70792
+1	|	Penicillium dierckxii	|	 	|	121611
+1	|	Penicillium hispanicum	|	 	|	1080232
+1	|	Penicillium jiangxiense	|	 	|	1506166
+1	|	Penicillium lanosum	|	 	|	357984
+1	|	Penicillium melanoconidium	|	 	|	60168
+1	|	Penicillium minnesotense	|	 	|	2569548
+1	|	Penicillium oxalicum	|	 	|	69781
+1	|	Penicillium sclerotiorum	|	 	|	69788
+1	|	Penicillium steckii	|	 	|	303698
+1	|	Penicillium sumatraense	|	 	|	70558
+1	|	Phaeosphaeria podocarpi	|	 	|	1577859
+1	|	Phanerochaete chrysosporium	|	Phanerodontia chrysosporium	|	2822231
+1	|	Pichia cephalocereana	|	 	|	53940
+1	|	Plectosphaerella cucumerina	|	 	|	40658
+1	|	Pleurotus columbinus	|	 	|	98343
+1	|	Preussia terricola	|	 	|	265085
+1	|	Psathyrella sulcatotuberculosa	|	 	|	1506512
+1	|	Purpureocillium lilacinum	|	 	|	33203
+1	|	Pyrenochaetopsis leptospora	|	 	|	798152
+1	|	Ramularia pistaciae	|	 	|	2588909
+1	|	Rasamsonia emersonii	|	 	|	68825
+1	|	Rhizomucor pusillus	|	 	|	4840
+1	|	Rhizopus arrhizus	|	 	|	64495
+1	|	Rhodotorula diobovata	|	 	|	5288
+1	|	Rhodotorula mucilaginosa	|	 	|	5537
+1	|	Rhodotorula taiwanensis	|	 	|	741276
+1	|	Rhynchogastrema complexa	|	 	|	1255116
+1	|	Saccharomyces cerevisiae	|	 	|	4932
+1	|	Saccharomycopsis fibuligera	|	 	|	4944
+1	|	Sampaiozyma vanillica	|	 	|	106020
+1	|	Sarocladium hominis	|	 	|	1610687
+1	|	Schizothecium inaequale	|	 	|	330522
+1	|	Solicoccozyma terrea	|	 	|	40409
+1	|	Sporobolomyces carnicolor	|	 	|	183959
+1	|	Sporobolomyces roseus	|	 	|	40563
+1	|	Sporobolomyces ruberrimus	|	 	|	86828
+3	|	Stachybotrys echinatus	|	 	|	 
+1	|	Stagonosporopsis valerianellae	|	 	|	749902
+1	|	Stemphylium vesicarium	|	 	|	119933
+1	|	Stephanonectria keithii	|	 	|	122428
+1	|	Sterigmatomyces halophilus	|	 	|	5617
+1	|	Stolonocarpus gigasporus	|	 	|	2587409
+1	|	Symmetrospora oryzicola	|	 	|	5441
+1	|	Symmetrospora vermiculata	|	 	|	100913
+1	|	Synnemellisia aurantia	|	 	|	1932872
+1	|	Talaromyces atricola	|	 	|	1400003
+1	|	Talaromyces diversus	|	 	|	128434
+1	|	Talaromyces thailandensis	|	 	|	1297587
+1	|	Talaromyces wortmannii	|	 	|	28567
+1	|	Tausonia pullulans	|	 	|	82525
+1	|	Thanatephorus cucumeris	|	 	|	107832
+1	|	Thermomyces lanuginosus	|	 	|	5541
+1	|	Torulaspora delbrueckii	|	 	|	4950
+1	|	Trichocladium arxii	|	 	|	669017
+1	|	Trichoderma aethiopicum	|	 	|	1195187
+1	|	Trichoderma lixii	|	 	|	1491472
+1	|	Trichoderma virilente	|	 	|	1383395
+1	|	Trichomonascus ciferrii	|	 	|	44093
+1	|	Trichosporon asahii	|	 	|	82508
+1	|	Trichosporon chiropterorum	|	Apiotrichum chiropterorum	|	279324
+1	|	Trichosporon ovoides	|	 	|	82524
+1	|	unidentified	|	 	|	32644
+1	|	Ustilaginoidea virens	|	 	|	1159556
+1	|	Vishniacozyma carnescens	|	 	|	214994
+1	|	Vishniacozyma tephrensis	|	 	|	151289
+1	|	Volvariella volvacea	|	 	|	36659
+1	|	Wallemia ichthyophaga	|	 	|	245174
+1	|	Wallemia tropicalis	|	 	|	1708540
+1	|	Wickerhamomyces anomalus	|	 	|	4927
+1	|	Xeromyces bisporus	|	 	|	89491
+1	|	Zygosaccharomyces pseudobailii	|	 	|	1365887
+1	|	Zygotorulaspora florentina	|	 	|	48255

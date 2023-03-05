@@ -1,31 +1,71 @@
-library(VennDiagram)
+library(ggVennDiagram)
+# update: 引入了 ncbi taxon id 用于校准两个数据集的共有物种
 
-#接下来，你需要准备要用于 Venn 图的数据。这些数据通常是一组元素的列表，每个元素属于一个或多个集合。例如，以下是三个集合的元素列表：
-set1 <- c("apple", "banana", "orange", "peach")
-set2 <- c("apple", "pear", "kiwi", "grape")
-set3 <- c("banana", "orange", "grape", "strawberry")
-#然后，你可以使用 draw.triple.venn 函数来画出三组数据的 Venn 图。以下是一个示例代码：
-draw.triple.venn(
-  area1 = length(set1),
-  area2 = length(set2),
-  area3 = length(set3),
-  n12 = length(intersect(set1, set2)),
-  n23 = length(intersect(set2, set3)),
-  n13 = length(intersect(set1, set3)),
-  n123 = intersect(set1, intersect(set2, set3)),
-  category = c("Set 1", "Set 2", "Set 3"),
-  fill = c("dodgerblue", "goldenrod1", "darkorange"),
-  lty = "blank",
-  cex = 2,
-  fontface = "bold",
-  cat.fontface = "bold",
-  cat.fontfamily = "sans",
-  margin = 0.1,
-  main = "Venn diagram of three sets"
-)
-#在这个示例代码中，我们首先使用 length 函数来计算每个集合的元素数量，
-#然后使用 intersect 函数来计算两个集合之间的交集。接下来，我们将这些数据传递给 draw.triple.venn 函数，
-#并设置一些选项来定制 Venn 图的外观和样式，例如设置每个集合的颜色、文本字体和大小、图表标题等等。
+# >>> 原始数据 >>>
+source("02_code/03_abundance_boxplot.R")
 
-#运行这个代码会生成一个 Venn 图，其中包含三个集合的交集和各自的元素数量。
-#你可以根据自己的数据和需求，进一步调整代码以绘制不同数量和类型的 Venn 图。
+ITS_plot_tb %>%
+  filter(value > 0.01) %>%
+  dcast(index ~ variable, value.var = "value", fun.aggregate = mean, fill = 0)
+
+MGS_tb <- MGS_plot_tb %>%
+  mutate(index = gsub("^m", "", index))
+# <<< 原始数据 <<<
+
+# >>> 判断数据集中鉴定到的菌
+df1 <- ITS_plot_tb %>%
+  left_join(ITS_taxon, by = c("variable" = "name")) %>%
+  filter(value > 0.01 & !is.na(taxid) & code != 3) %>%
+  group_by(taxid) %>%
+  summarise(rel_abundance = sum(value)) %>%
+  ungroup() %>%
+  mutate(rel_abundance = rel_abundance/length(unique(ITS_plot_tb$index))) %>%
+  rename(bacteria = taxid)
+df2 <- MGS_plot_tb %>%
+  left_join(MGS_taxon, by = c("variable" = "name")) %>%
+  filter(value > 0.001 & !is.na(variable), code != 3) %>%
+  group_by(taxid) %>%
+  summarise(rel_abundance = sum(value)) %>%
+  ungroup() %>%
+  mutate(rel_abundance = rel_abundance/length(unique(MGS_plot_tb$index))) %>%
+  rename(bacteria = taxid)
+
+# >>> 查看重叠的样本数 >>>
+inner_join(ITS_plot_tb, MGS_tb, by = "index") %>%
+  distinct(index)
+
+distinct(ITS_plot_tb, index)
+# <<< 查看重叠的样本数 <<<
+
+
+# 合并两个数据框的菌名列
+bacteria <- unique(c(df1$bacteria, df2$bacteria))
+
+# 创建逻辑向量，以指示每个样本中是否存在每个菌
+in_df1 <- bacteria %in% df1$bacteria
+in_df2 <- bacteria %in% df2$bacteria
+
+# 计算共同和特定菌的数量和相对丰度的总和
+n_both <- sum(in_df1 & in_df2)
+n_only_df1 <- sum(in_df1 & !in_df2)
+n_only_df2 <- sum(!in_df1 & in_df2)
+sum_both <- sum(df1$rel_abundance[df1$bacteria %in% bacteria[in_df1 & in_df2]]) + 
+            sum(df2$rel_abundance[df2$bacteria %in% bacteria[in_df1 & in_df2]])
+sum_only_ITS <- sum(df1$rel_abundance[df1$bacteria %in% bacteria[in_df1 & !in_df2]])
+sum_only_MGS <- sum(df2$rel_abundance[df2$bacteria %in% bacteria[!in_df1 & in_df2]])
+
+round(sum_only_ITS * 100, 2)
+
+ggVennDiagram(list(
+    A = as.character(df1$bacteria),
+    B = as.character(df2$bacteria)
+  ),
+  label = "count",
+  label_alpha=0,
+  category.names = c("ITS", "MGS"),
+  set_size = 6) +
+scale_x_continuous(expand = expansion(mult = .2)) +
+scale_fill_gradient(low="#bef0fa",high = "#8dcdc0") +
+scale_color_brewer(palette = "Paired")
+ggsave("03_plot/venn_plot.png", width = 6, height = 6, dpi = 900)
+
